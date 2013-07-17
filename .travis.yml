@@ -2,4 +2,4 @@ language: objective-c
 before_install:
 - brew update
 - brew install xctool
-script: xctool -project BrowseOverflow.xcodeproj -scheme 'BrowseOverflow' test
+script: xctool -project BrowseOverflow.xcodeproj -scheme 'BrowseOverflow' test -sdk iphonesimulator
