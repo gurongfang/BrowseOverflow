@@ -1,5 +1,5 @@
 language: objective-c
 before_install:
-    - brew update
-        - brew install xctool
-        script: xctool -project BrowseOverflow.xodeproj -scheme 'BrowseOverflow' test
+- brew update
+- brew install xctool
+script: xctool -project BrowseOverflow.xodeproj -scheme 'BrowseOverflow' test
